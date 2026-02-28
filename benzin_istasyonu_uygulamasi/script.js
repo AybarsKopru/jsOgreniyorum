@@ -13,7 +13,7 @@
 
 */
 
-let dizel = 24.53, benzin = 22.25, lpg = 11.1;
+let dizel = 62.61, benzin = 60.41, lpg = 30.1;
 const yeniSatir = "\r\n";
 
 const yakitMetni = "1-Dizel" + yeniSatir
@@ -76,3 +76,4 @@ if (yakitTipi == "1" || yakitTipi == "2" || yakitTipi == "3") {
 else {
     alert("Lütfen geçerli bir yakıt türü seçiniz!");
 }
+
